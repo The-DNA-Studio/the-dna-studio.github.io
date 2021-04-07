@@ -3920,6 +3920,8 @@ body.search-is-visible {
 .folio-item img {
     display: block;
     margin: 0;
+    height: 325px;
+    width: 100%;
 }
 
 .folio-item__text {
@@ -3946,6 +3948,7 @@ body.search-is-visible {
 
 .modal-popup img {
     margin-bottom: var(--vspace-0_5);
+    width: 100%;
 }
 
 .modal-popup h5 {
@@ -4274,6 +4277,8 @@ body.search-is-visible {
 
 .team-member img {
     margin-bottom: 0;
+    height: 335px;
+    width: 100%;
 }
 
 .team-member__name {
