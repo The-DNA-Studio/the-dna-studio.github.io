@@ -3107,8 +3107,8 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .s-header__logo {
-    --logo-width: 106px;
-    --logo-height: 20px;
+    --logo-width: 140px;
+    #--logo-height: 20px;
     height: var(--header-height);
     width: var(--logo-width);
     margin-right: 4rem;
@@ -4275,10 +4275,15 @@ body.search-is-visible {
     margin-bottom: var(--vspace-1);
 }
 
-.team-member img {
-    margin-bottom: 0;
+.team-member__pic {
     height: 335px;
     width: 100%;
+}
+
+.team-member__pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .team-member__name {
